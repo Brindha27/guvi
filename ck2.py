@@ -1,0 +1,12 @@
+try:
+    n=int(input())
+    if(n>=0):
+        n=n%2
+        if(n==0):
+            print('Even')
+        else:
+            print('Odd')
+    else:
+        print('invalid')
+except:
+    print('invalid')
