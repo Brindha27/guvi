@@ -1,13 +1,10 @@
 try:
-    n=int(input('Input : '))
+    n=int(input(''))
     if(n>0):
-        print('Output :')
         print('Positive')
     elif(n<0):
-        print('Output :')
         print('Negative')
     else:
-        print('Output :')
         print('Zero')
 except:
-    print('Invalid')
+    print('Invalid Input')
