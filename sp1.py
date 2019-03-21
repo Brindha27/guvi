@@ -1,10 +1,10 @@
-n=int(input('Input:'))
+n=int(input('Input :'))
 if(n>0):
-    print('Output:')
+    print('Output :')
     print('Positive')
 elif(n<0):
-    print('Output:')
+    print('Output :')
     print('Negative')
 else:
-    print('Output:')
+    print('Output :')
     print('Zero')
