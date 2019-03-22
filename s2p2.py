@@ -1,14 +1,17 @@
 try:
     n=int(input())
-    r=rev=0
-    nn=n
-    while(n>0):
-        r=n%10
-        rev=r+rev*10
-        n=n//10
-    if(nn==rev):
-        print('yes')
+    if(n<=1000):
+        r=rev=0
+        nn=n
+        while(n>0):
+            r=n%10
+            rev=r+rev*10
+            n=n//10
+        if(nn==rev):
+            print('yes')
+        else:
+            print('no')
     else:
-        print('no')
+        print('invalid')
 except:
     print('invalid')
