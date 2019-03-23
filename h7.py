@@ -9,10 +9,10 @@ try:
     
     for i in range(len(l)):
         if(i%2==0):
-            if(l[i]%2!=0):
+            if((l[i]%2)!=0):
                 res.append(l[i])
         else:
-            if(l[i]%2==0):
+            if((l[i]%2)==0):
                 res.append(l[i])
     for i in range(len(res)-1):
         print(res[i],end=' ')
