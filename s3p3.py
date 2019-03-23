@@ -1,9 +1,9 @@
 try:
-    n=input()
-    n=n.split()
+    i=input()
+    i=i.split()
     l=[]
-    for i in range(len(n)):
-        t=int(n[i])
+    for n in range(len(i)):
+        t=int(i[n])
         l.append(t)
     print(min(l))
 except:
