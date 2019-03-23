@@ -5,17 +5,17 @@ try:
     l=[]
     for j in i:
         l.append(int(j))
-    n=[]
+    p=[]
     for j in l:
         if (l.count(j)>1):
-            n.append(j)
-    if(len(n)>0):
-        n=set(n)
-        n=list(n)
-        n=sorted(n)
-        for j in range(len(n)-1):
-            print(n[j],end=' ')
-        print(n[-1])
+            p.append(j)
+    if(len(p)>0):
+        p=set(p)
+        p=list(p)
+        p=sorted(p)
+        for j in range(len(p)-1):
+            print(p[j],end=' ')
+        print(p[-1])
     else:
         print('unique')
 except:
