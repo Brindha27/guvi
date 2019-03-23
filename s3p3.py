@@ -1,10 +1,13 @@
 try:
+    s=int(input())
     i=input()
     i=i.split()
-    l=[]
-    for n in range(len(i)):
-        t=int(i[n])
-        l.append(t)
-    print(min(l))
+    le=len(i)
+    if(s==le):
+        l=[]
+        for n in range(s):
+            t=int(i[n])
+            l.append(t)
+        print(min(l))
 except:
     print('invalid')
