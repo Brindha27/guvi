@@ -17,8 +17,6 @@ try:
             print(n[j],end=' ')
         print(n[-1])
     else:
-        for j in range(len(l)-1):
-            print(l[j],end=' ')
-        print(l[-1])
+        print('unique')
 except:
     print('invalid')
