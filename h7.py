@@ -8,7 +8,7 @@ try:
         l.append(int(i))
     
     for i in range(len(l)):
-        if(i%2==0):
+        if((i%2)==0):
             if((l[i]%2)!=0):
                 res.append(l[i])
         else:
