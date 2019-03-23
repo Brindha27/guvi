@@ -7,7 +7,6 @@ try:
         t=int(i)
         l.append(t)
     l=sorted(l)
-    print(l)
     if(s%2==0):
         s=s//2
         m=(l[s]+l[s-1])//2
