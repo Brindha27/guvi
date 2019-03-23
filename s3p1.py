@@ -1,0 +1,10 @@
+try:
+    i=input()
+    i=i.split()
+    n=int(i[0])
+    a=int(i[1])
+    d=int(i[2])
+    r=((2*a+((n-1)*d))*n)/2
+    print(int(r))
+except:
+    print('invalid')
