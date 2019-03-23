@@ -12,7 +12,7 @@ try:
     if(len(p)>0):
         p=set(p)
         p=list(p)
-        p=sorted(p)
+        p.sort()
         for j in range(len(p)-1):
             print(p[j],end=' ')
         print(p[-1])
