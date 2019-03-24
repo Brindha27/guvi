@@ -10,10 +10,9 @@ try:
         else:
             if(l.count(i)>1):
                 r.append(i)
-    if(len(r)>0):
-        for i in r:
-            print(i,end='')
-    else:
-        print(s)
+            else:
+                r.append(i)
+    for i in r:
+        print(i,end='')
 except:
     print('invalid')
