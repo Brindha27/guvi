@@ -1,7 +1,6 @@
 try:
     s=input()
     s=s.split()
-    print(len(s))
     res=[]
     for i in s:
         a=i[::-1]
