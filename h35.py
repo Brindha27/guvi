@@ -10,9 +10,8 @@ try:
         le=l//2
         nl.remove(nl[le])
         le=int(len(nl)/2)
-        c1,c2=[],[]
-        c1=c1+nl[:le]
-        c2=c2+nl[le:]
+        c1=nl[:le]
+        c2=nl[le:]
         if (c1==c2):
             print('YES')
         else:
