@@ -7,9 +7,9 @@ try:
         l.append(int(i))
     ss=max(l)
     for i in range(le):
-        m=max(l[i:])
-        if (m==l[i]):
-            s.append(str(m))
+        p=max(l[i:])
+        if (p==l[i]):
+            s.append(str(p))
     print(' '.join(s))
     print(ss)
 except:
