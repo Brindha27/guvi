@@ -4,7 +4,7 @@ class Cs:
         self.l=l
     def Cal(self):
         l1=self.l
-        l1=l1.sort()
+        l1.sort()
         if(l1==self.l):
             print('yes')
         else:
