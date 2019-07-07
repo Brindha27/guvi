@@ -6,7 +6,7 @@ s = l[0]
 l.remove(s)
 le = len(s)
 for i in l:
-	while(le>0):
+	while(bi>0):
 		if(s in i):
 			break
 		le = le -1
